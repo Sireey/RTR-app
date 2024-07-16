@@ -1,6 +1,34 @@
 # Check-in/ Check-out Library App
 This is a check-in/ check-out library management app which makes minimal usage of network. It stores the data asynchronously in the app. This data is used to provide data visualization about each child and also cumulative information about all the children. The app also provides a recommendation system based on their current reading level. The app is geared towards younger children and provides an easy feedback form, which can be used to improve recommendations. It also provides a chatbot for teachers to clarify any doubts on the go. The app is easy to use for teachers in local areas and provides easily understood information for the teacher to encourage reading.
 
+## ⚒️ Tech stack used
+__FrontEnd__- React Native\
+__Backend__- SQLite
+
+## Features
+
+__Minimalistic UI__ \
+The frontend is developed to be minimalistic and simple in order to be understood by anyone
+
+ 
+__Search and Filters__ \
+The issued books and current books can be searched inside the app. Filters are present to easily sort the required book
+
+__Data Visualization__ \
+The data pertaining to each student in visualized, making it easy for teacher to understand their growth
+
+__Recommendations__\
+Books can be recommended to each student based on their current reading trends
+
+__Personal profile__\
+Each student's personal profile can be accessed.
+
+__Chatbot__\
+A chatbot is integrated into the app using an API. It can be used to answer simple queries posed by the teachers and students. 
+
+__Delay Notifications__\
+A notification system is used to send notify when a student has exceeded the 7-day limit to return the book
+
 # Preview
 
 <table>
